@@ -57,7 +57,7 @@ def XOR_logicFunction(x):
     return finalOutput
 
 # Input data for XOR
-X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
+X = np.random.randint(0, 2, size=(4, 2))
 
 # Test XOR logic function
 for i in range(len(X)):
